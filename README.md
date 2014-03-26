@@ -1,7 +1,7 @@
 scheduling-algorithms
 =====================
 
-We have implemented three scheduling algorithms. Namely
+I have implemented three scheduling algorithms. Namely
 
 First Come first serve(fcfs.m)
 Shortest job first(sjf.m)
