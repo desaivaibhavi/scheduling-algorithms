@@ -17,6 +17,7 @@ Write the following commands to run the respective programs in matlab console.
 Below is a detailed explanation of what each code does.
 
 First come first serve:
+
 1. The first come first scheduling algorithm runs the process that comes first, finishes it and then starts the next process in the queue. 
 2. In the code the burst times of processes are hard coded in the array 'btime'.
 3. Then the wait time of each process can be found by adding the waiting time and burst time of process preceding it. 
@@ -25,6 +26,7 @@ First come first serve:
 6. 't2' is the total turnaround time found by adding individual turnaround times.
 
 Shortest job first:
+
 1. The shortest job first algorithm runs the process whose burst time is lowest.
 2. In the code we are assuming all the processes have arrived already.
 3. The burst times are hard coded in the array 'ptime'. 
@@ -35,6 +37,7 @@ Shortest job first:
 8. 'total2' is the total turnaround time found by adding individual turnaround times.
 
 Round Robin:
+
 1. The round robin algorithm runs a process for a given quantum time. If the process gets completed in the given time it is dequeued else it is put at the end of the queue so that it can run again later. 
 2. In the code the burst time and quantum time are hard coded in array 'btime' and variable 'q' respectively.
 3. Initially the remaining time array 'rtime' is equated to the burst time as no process has run yet.
